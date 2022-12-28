@@ -168,7 +168,7 @@ elif estimativa == 'Estimativa de Altura' and genero == 'Homem' and cor == 'Negr
     st.text("A estatura final ficou em : {:.2f} metros".format(estaturafinal))
 
 
-elif estimativa == 'Estimativa de Altura' and genero == 'Homem' and cor == 'Negra' >= 60:
+elif estimativa == 'Estimativa de Altura' and genero == 'Homem' and cor == 'Negra' and idade >= 60:
 
     estatura = 95.79 + (1.37 * aj)
     st.text('A estatura do paciente é de {:.2f} centimetros'.format(estatura))
