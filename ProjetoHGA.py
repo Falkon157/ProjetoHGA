@@ -100,7 +100,7 @@ elif estimativa == 'Estimativa de Peso' and genero == 'Homem' and cor == 'Negra'
 
 elif estimativa == 'Estimativa de Altura' and genero == 'Mulher' and cor == 'Branca' and idade < 60:
 
-    estatura = 70.25 + (1.87 * aj) - (0.06 * idade)/100
+    estatura = (70.25 + (1.87 * aj) - (0.06 * idade)) 
     st.text('A estatura do paciente é de {:.2f} centimetros'.format(estatura))
 
     dp = st.number_input('Para este caso o desvio padrão é de +- 07,20. Digite o valor do desvio padrão que você quer usar.')
